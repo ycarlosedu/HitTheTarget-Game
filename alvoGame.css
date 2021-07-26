@@ -1,0 +1,34 @@
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-family: cursive;
+}
+
+header:hover, main:hover{
+    border-color: red;
+    transition: 0.5s;
+}
+
+canvas:hover{
+    cursor: pointer;
+}
+
+header, main, .headerInfo {
+    border: 2px solid #000000;
+    border-radius: 10px;
+}
+
+.headerInfo{
+    background-color: black;
+    color: red;
+    font-size: 1.5rem;
+    padding: 0.5rem;
+}
+
+main{
+    margin-top: 10px;
+}
+
+
+
